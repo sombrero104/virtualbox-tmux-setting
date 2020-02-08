@@ -44,5 +44,6 @@ tmux가 실행되고 있을 때, .tmux.conf 파일 수정 후 바로 적용해 �
 
 #### Ctrl + c, p
 분할된 창 모두 동시에 키보드 입력.<br/>
+(.tmux.conf로 설정하지 않은 경우에는 'setw synchronize-panes on' 입력하면 사용할 수 있다.)<br/>
 
-
+<br/>
