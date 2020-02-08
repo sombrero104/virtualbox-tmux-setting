@@ -24,7 +24,7 @@ unbind C-b
 unbind C-a
 </pre>
 원래는 prefix 키가 Ctrl + b인데 Ctrl + c로 바꿔줌. (키보드 위치가 넘 멀어서..)<br/>
-<br/><br/>
+<br/>
 
 ## Tmux 명령
 
