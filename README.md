@@ -42,9 +42,10 @@ IPADDR=192.168.58.102
 BOOTPROTO=static
 </pre>
 편집 완료 후 네트워크를 재시작하면 적용 완료. <br/>
-('service network restart' 혹은 '/etc/rc.d/init.d/network restart') <br/>
+(네트워크 재시작 명령은 'service network restart' 혹은 '/etc/rc.d/init.d/network restart') <br/>
 
 ![vb_network_06](./images/vb_network_06.png)<br/>
+<br/>
 
 ### 6. iTerm에서 접속
 ssh rey@192.168.58.102<br/>
