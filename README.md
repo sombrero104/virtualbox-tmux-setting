@@ -18,13 +18,12 @@ Ctrl + b를 눌렀다가 키보드에서 손을 떼고, 그 다음에 p를 누�
 <br/>
 
 #### * prefix 키를 Ctrl + b에서 Ctrl + c로 변경
+원래는 prefix 키가 Ctrl + b인데 Ctrl + c로 바꿔줌. (키보드 위치가 넘 멀어서..)<br/>
 <pre>
 set -g prefix C-c
 unbind C-b
 unbind C-a
 </pre>
-원래는 prefix 키가 Ctrl + b인데 Ctrl + c로 바꿔줌. (키보드 위치가 넘 멀어서..)<br/>
-<br/>
 
 ## Tmux 명령
 
