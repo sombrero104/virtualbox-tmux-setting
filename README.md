@@ -24,6 +24,12 @@ unbind C-b
 unbind C-a
 </pre>
 
+#### * 분할창 동시 입력
+Ctrl + c, p 입력하면 분할된 창 모두 동시 키보드 입력되도록 설정.
+<pre>
+bind-key p set-window-option synchronize-panes
+</pre>
+
 ## Tmux 명령
 
 #### Ctrl + c, 스페이스
