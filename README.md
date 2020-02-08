@@ -1,6 +1,8 @@
 # Virtualbox
 <br/>
 
+## Virtualbox 네트워크 세팅
+
 ### 1. 호스트 네트워크 관리자를 설정한다.
 ![vb_network_01](./images/vb_network_01.png)<br/>
 <br/>
