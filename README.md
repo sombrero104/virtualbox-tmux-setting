@@ -27,7 +27,7 @@
 <br/>
 
 ### 5. 이더넷카드 설정
-/etc/sysconfig/network-scripts/ifcfg-enp0s8 파일을 편집한다.
+호스트 네트워크인 /etc/sysconfig/network-scripts/ifcfg-enp0s8 파일을 편집한다.
 <pre>
 * 시스템 시작시 자동으로 활성화
 ONBOOT=yes
