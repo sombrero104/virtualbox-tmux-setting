@@ -4,7 +4,7 @@
 
 
 # Tmux 세팅
-/sample/.tmux.conf 파일 참조. (기본으로 세팅해도 됨. 현재 tmux2.8 버전에서 설정해서 사용 중..) <br/>
+=> git의 /sample/.tmux.conf 파일 참조. (기본으로 세팅해도 됨. 현재 tmux2.8 버전에서 설정해서 사용 중..) <br/>
 
 ## Tmux 실행 방법
 tmux 입력해서 실행.<br/>
