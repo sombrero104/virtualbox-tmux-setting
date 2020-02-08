@@ -37,6 +37,7 @@ bind-key p set-window-option synchronize-panes
 
 #### Ctrl + c, r
 tmux가 실행되고 있을 때, .tmux.conf 파일 수정 후 바로 적용해 줌.<br/>
+혹은 'tmux source-file ~/.tmux.current.conf' 입력.<br/>
 
 #### Ctrl + c, ,
 창 이름 변경.<br/>
