@@ -28,15 +28,19 @@
 
 ### 5. 이더넷카드 설정
 /etc/sysconfig/network-scripts/ifcfg-enp0s8 파일을 편집한다.
-#### * 시스템 시작시 자동으로 활성화
-ONBOOT=yes <br/>
-#### * 장치명, 첫번째 이더넷 카드
-DEVICE=enp0s8 <br/>
-#### * IP 주소 지정
-IPADDR=192.168.58.102 <br/>
-#### * IP 부여 방식 결정, static은 고정IP
-BOOTPROTO=static <br/>
-<br/>
+<pre>
+* 시스템 시작시 자동으로 활성화
+ONBOOT=yes
+
+* 장치명, 첫번째 이더넷 카드
+DEVICE=enp0s8
+
+* IP 주소 지정
+IPADDR=192.168.58.102
+
+* IP 부여 방식 결정, static은 고정IP
+BOOTPROTO=static
+</pre>
 편집 완료 후 네트워크를 재시작하면 적용 완료. <br/>
 ('service network restart' 혹은 '/etc/rc.d/init.d/network restart') <br/>
 
