@@ -1,29 +1,25 @@
 # Virtualbox
 <br/>
 
-
+### 1. 호스트 네트워크 관리자를 설정한다.
 ![vb_network_01](./images/vb_network_01.png)<br/>
-호스트 네트워크 관리자를 설정한다.
+
+### 2. 각 가상머신마다 네트워크를 설정한다.
+#### * 어댑터 설정 추가<br/>
+(1) 어댑터 1: NAT NETWORK 추가 (enp0s3 -> 10.0.2.12)<br/>
+	=> 외부 네트워크 연결 + 공유기 역할<br/>
+		(NAT NETWORK가 아닌 NAT는 외부 네트워크 연결만 함)<br/>
+(2) 어댑터 2: 호스트 전용 어댑터 추가 (enp0s8 -> 192.168.58.102)<br/>
+	=> vm이 설치된 호스트와의 연결<br/>
 
 ![vb_network_02](./images/vb_network_02.png)<br/>
-각 가상머신마다 네트워크를 설정한다.
 
-* 어댑터 설정 추가
-(1) 어댑터 1: NAT NETWORK 추가 (enp0s3 -> 10.0.2.12)
-	=> 외부 네트워크 연결 + 공유기 역할
-		(NAT NETWORK가 아닌 NAT는 외부 네트워크 연결만 함)
-(2) 어댑터 2: 호스트 전용 어댑터 추가 (enp0s8 -> 192.168.58.102)
-	=> vm이 설치된 호스트와의 연결
-
+### 3. CentOs 설치 시 네트워크를 설정해준다.
 ![vb_network_03](./images/vb_network_03.png)<br/>
-CentOs 설치 시 네트워크를 설정해준다.
 
-![vb_network_04](./images/vb_network_04.png)<br/>
-호스트 네트워크는 수동으로 설정해준다.
+### 4. 호스트 네트워크는 수동으로 설정해준다.
 (호스트 네트워크 관리자에서 설정한 IPv4 주소 대역으로 IP를 만든다.)
-
-
-
+![vb_network_04](./images/vb_network_04.png)<br/>
 
 
 ![vb_network_05](./images/vb_network_05.png)<br/>
