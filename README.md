@@ -36,16 +36,17 @@ DEVICE=enp0s8 <br/>
 IPADDR=192.168.58.102 <br/>
 #### * IP 부여 방식 결정, static은 고정IP
 BOOTPROTO=static <br/>
-편집 완료 후 네트워크 재시작. <br/>
+<br/>
+편집 완료 후 네트워크를 재시작하면 적용 완료. <br/>
 ('service network restart' 혹은 '/etc/rc.d/init.d/network restart') <br/>
 
 ![vb_network_06](./images/vb_network_06.png)<br/>
 
-
+### 6. iTerm에서 접속
+ssh rey@192.168.58.102<br/>
 
 ![vb_network_07](./images/vb_network_07.png)<br/>
-* iTerm에서 접속
-ssh rey@192.168.58.102
+
 <br/><br/><br/><br/>
 
 # Tmux
