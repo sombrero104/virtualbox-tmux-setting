@@ -10,7 +10,7 @@ tmux 입력해서 실행.<br/>
 prefix 키를 누른 다음 키보드에서 손을 떼고, 그 다음에 bind 키를 누른다.<br/>
 예를 들어 prefix 키가 Ctrl + b이고(디폴트가 Ctrl + b 이다.) bind 키가 p인 경우,<br/>
 Ctrl + b를 눌렀다가 키보드에서 손을 떼고, 그 다음에 p를 누른다.<br/>
-<br/>
+<br/><br/>
 
 ## Tmux 세팅
 ### Tmux 설정 변경 (.tmux.conf 파일 변경 후 적용.)
@@ -28,7 +28,7 @@ unbind C-a
 Ctrl + c, p 입력하면 분할된 창 모두 동시 키보드 입력되도록 설정.
 <pre>
 bind-key p set-window-option synchronize-panes
-</pre>
+</pre><br/>
 
 ## Tmux 명령
 
