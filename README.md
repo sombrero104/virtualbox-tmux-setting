@@ -15,7 +15,6 @@ Ctrl + b를 눌렀다가 키보드에서 손을 떼고, 그 다음에 p를 누�
 ## Tmux 세팅
 ### Tmux 설정 변경 (.tmux.conf 파일 변경 후 적용.)
 => git의 /sample/.tmux.conf 파일 참조. (기본으로 세팅해도 됨. 현재 tmux2.8 버전에서 설정해서 사용 중..) <br/>
-<br/>
 
 #### * prefix 키를 Ctrl + b에서 Ctrl + c로 변경
 원래는 prefix 키가 Ctrl + b인데 Ctrl + c로 바꿔줌. (키보드 위치가 넘 멀어서..)<br/>
