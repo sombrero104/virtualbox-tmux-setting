@@ -4,6 +4,7 @@
 
 
 # Tmux 세팅
+<br/>
 
 ## Tmux 실행 방법
 tmux 입력해서 실행.<br/>
